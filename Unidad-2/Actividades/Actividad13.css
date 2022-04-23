@@ -1,0 +1,22 @@
+#Header1{
+
+font-family:Arial Narrow;
+text-align:center;
+}
+
+p{
+
+text-align:center;
+  
+}
+
+
+.subrayado {
+color:#00aa00;
+text-decoration:underline;
+}
+
+.tachado {
+color:#00aa00;
+text-decoration:line-through;
+}
