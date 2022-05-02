@@ -1,6 +1,10 @@
 body {
 
 background-color:white;
+
+  margin: 0; 
+  height: 100%;
+  overflow: auto;
   
 }
 
@@ -49,14 +53,15 @@ ul li ul li:hover {background:rgba(80, 80, 80, 0.8);}
 
 #Titulo {
 
-width:30%
-  display:inline-block;
- padding-top:2px;
+  width:100%;
+  padding-top:2px;
   padding-left:15px;
   padding-right:15px;
   padding-bottom:0px;
   font-family: "Roboto Slab";
   text-align:center;
+  overflow:hidden;
+  
 }
 
 .sticky {
@@ -84,11 +89,12 @@ width:30%
 #Frame{
 
     width:100%;
-    height:100%;
+    height:80%;
     display: block;
     margin-right: auto;
     margin-left: auto;
     position:absolute;
+   
 }
 
 #Centrar{
@@ -106,16 +112,16 @@ z-index:1;
 
 #Logo {
 
-float:left;
 height:30%;
-width:30%;
-margin-right:0px;
+width:20%;
+padding:0;
+margin:0 auto;
+vertical-align:bottom;
   
 }
 
 #Cbtis{
 
-margin-left:0px;
-
+margin-right:0px;
   
 }
