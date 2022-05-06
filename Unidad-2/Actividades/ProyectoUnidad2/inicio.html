@@ -41,6 +41,14 @@ text-align:center;
 color:rgba(162, 34, 69, 1);
 font-size:30px;   
   }
+  
+  #inf{
+
+font-family:Roboto;
+text-align:center;
+color:white;
+font-size:30px;   
+  }
 
   #Texto{
 
@@ -56,11 +64,99 @@ word-spacing:1px;
 
 
 margin: auto;
-width: 35%;
+width: 100%;
   
 }
 
 
+
+#Links13{
+
+background-color:rgba(255, 169, 136, 1);
+border:2px solid black;
+border-bottom:hidden;
+width:30%;
+  margin: 0 auto;
+}
+
+#Links24 {
+
+background-color:rgba(255, 169, 136, 1);
+border:2px solid black; 
+width:30%;
+  margin: 0 auto;
+}
+
+#Links13:hover{
+
+  Background-color:rgba(245, 110, 99, 1) !important;
+  
+}
+  
+#Links24:hover{
+
+  Background-color:rgba(245, 110, 99, 1) !important;
+  
+}
+  
+  
+  
+    #Contacto{
+        width: 30%;
+        padding: 0px 0;
+        text-align: center;
+        background-color:inherit body;
+        margin:auto;
+      position: inherit;
+     
+    }
+
+  
+#Boton1 {
+
+  border: solid 3px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color:rgba(162, 34, 69, 1);;
+  font-family:Trebuchet MS;
+  
+}
+
+#Boton1:hover {
+
+Background-color:rgba(162, 34, 69, 0.8); !important;
+  
+}
+
+
+  
+#Centrarbtn {
+
+text-align:center;
+  
+}
+
+#Oferta {
+
+color:black;
+font-family:roboto;
+font-size:20px;
+margin:0px;
+display:inline;
+}
+
+
+#Acali {
+
+color:blue;
+  
+}
   
 </style>
   
@@ -104,24 +200,147 @@ width: 35%;
 <br>
 <br>
 
-<p id="Titulo"><strong>Información de contacto</strong></p>
-<br>
-<br>
-<p id="Frase">Telefonos</p>
-<br>
-<p id="Texto">619-1934 y 619-1570</p>
+<div>
+
+<script>
+
+   function AbrBtn() {
+        var x = document.getElementById("Contacto");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
   
-  
-<p id="Frase">Correo</p>
-<br>
-<p id="Texto">direccion@cbtis128.edu.mx</p>
+</script>
+
+<p id="Titulo"><strong>Oferta academica.</strong> </p>
+
+<div id="Centrarbtn">
 
   
-<p id="Frase">Dirección</p>  
+  <ul style="display:inline-block;padding:0px;list-style-position:inside;">
+      
+ <li> <p id="Oferta">Administración de recursos humanos</p> </li>
+    <br>
+ <li> <p id="Oferta">Gericultura</p> </li>
+    <br>
+    
+ <li> <p id="Oferta">Electronica</p> </li>
+    <br>
+    
+ <li> <p id="Oferta">Programación</p> </li>
+    <br>
+    
+ <li> <p id="Oferta">Laboratorista químico</p> </li>
+    <br>
+    
+ <li> <p id="Oferta">Soporte de equipo de computo</p> </li>
+    <br>
+    
+ <li> <p id="Oferta">Refrigeración y climatización</p> </li>
+  
+
+</ul>
+
+  
+</div>
+
+
+
+<p id="Titulo"><strong>Oferta cultural.</strong> </p>
+
+<div id="Centrarbtn">
+
+  
+  <ul style="display:inline-block;padding:0px;list-style-position:inside;">
+      
+ <li> <p id="Oferta">Banda de guerra</p> </li>
+    <br>
+ <li> <p id="Oferta">Escolta de bandera</p> </li>
+    <br>
+    
+ <li> <p id="Oferta">Danza folclórica</p> </li>
+    <br>
+    
+ <li> <p id="Oferta">Rondalla</p> </li>
+    <br>
+    
+ <li> <p id="Oferta">Artes</p> </li>
+    <br>
+    
+ <li> <p id="Oferta">Teatro</p> </li>
+    <br>
+    
+ <li> <p id="Oferta">Musica</p> </li>
 <br>
+ <li> <p id="Oferta">Ajedrez</p> </li>
+<br>
+ <li> <p id="Oferta">Declaración y oratoria</p> </li>
+    <br>
+ <li> <p id="Oferta">Literatura</p> </li>
+<br>
+</ul>
+  
+</div>
+
+
+  
+  <p id="Titulo"><strong>Oferta deportiva.</strong> </p>
+
+<div id="Centrarbtn">
+
+  
+  <ul style="display:inline-block;padding:0px;list-style-position:inside;">
+      
+ <li> <p id="Oferta">Atletismo</p> </li>
+    <br>
+ <li> <p id="Oferta">Voleibol</p> </li>
+    <br>
+    
+ <li> <p id="Oferta">Fútbol</p> </li>
+    <br>
+    
+ <li> <p id="Oferta">Fútbol americano</p> </li>
+    <br>
+    
+ <li> <p id="Oferta">Béisbol</p> </li>
+    <br>
+</ul>
+  
+</div>
+
+
+  <footer style="background-color:rgba(162, 34, 69, 1);color:white;">
+
+
+<p id="Centrarbtn">
+    <button onclick="AbrBtn()" id="Boton1"> <strong>Información de contacto</strong></button>
+
+    <div id="Contacto" style="display: none;" 
+  
+    </br>
+
+<div>
+
+<p id="inf">Telefonos</p>
+<p id="Texto">619-1934 y 619-1570</p>
+  
+</div>
+
+      <div>
+
+<p id="inf">Correo</p>
+<p id="Texto">direccion@cbtis128.edu.mx</p>
+        
+      </div>
+
+      <div>
+
+<p id="inf">Dirección</p>  
 <p id="Texto">Calle Nueva Zelanda No. 7870, Col. Oasis.</p>
-<br>
-<br>
+
   <div id="centrarmapa"'>
     
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3396.2383732910707!2d-106.41579258452217!3d31.65469754766335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e75d8d875e2b9f%3A0xd9ce9ee31ec09789!2sCBTIS%20128!5e0!3m2!1ses!2smx!4v1651463519724!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -131,7 +350,18 @@ width: 35%;
   
     
   </div>
- 
+
+        
+      </div>
+      
+    </div>
+  </p>
+    
+</footer>
+
+</div>
+
+  
 </div>
 
   
