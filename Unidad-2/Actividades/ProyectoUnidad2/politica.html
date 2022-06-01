@@ -77,7 +77,72 @@ background-color:rgba(162, 34, 69, 1);
 color:white;
   
 }
+
+  #centrarmapa{
+
+
+margin: auto;
+width: 100%;
   
+} 
+    #Contacto{
+        width: 30%;
+        padding: 0px 0;
+        text-align: center;
+        background-color:inherit body;
+        margin:auto;
+      position: inherit;
+     
+    }
+
+  
+#Boton1 {
+
+  border: solid 3px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color:rgba(162, 34, 69, 1);;
+  font-family:Trebuchet MS;
+  
+}
+
+#Boton1:hover {
+
+Background-color:rgba(162, 34, 69, 0.8); !important;
+  
+}
+
+
+  
+#Centrarbtn {
+
+text-align:center;
+  
+}
+
+    #inf{
+
+font-family:Roboto;
+text-align:center;
+color:white;
+font-size:30px;   
+  }
+
+#Logo {
+
+height:5%;
+width:5%;
+padding:10px;
+margin:0 auto;
+vertical-align:middle;
+  
+}
   
 </style>
 
@@ -90,9 +155,7 @@ color:white;
 
 <br>
 <br>
-<h1 id="Titulo"">Historia</h1>
-  <br>
-  <br>
+<h1 id="Titulo"><img id="Logo" src="imagenes/calidad.png" alt="cbtis3">Politica de calidad.</h1>
 </div>
 
 <div id="FondoR">
@@ -102,28 +165,87 @@ color:white;
 
 <br>
 <br>
-El 16 de Abril de 1971 es publicado en el <i>Diario Oficial de la Federacion</i> el acuerdo presidencial por el que se modifica la estructura organica administrativa de la <strong>Sep</strong> y se da paso a la creación de la <i>Dirección General de Educación Tecnologica Industrial</i>, como una dependencia adscrita a la <i>Subsecretaria de Educación Media Superior</i> (<strong>SEMS</strong>), dependiendo de la <i>Secretaria de Educación Publica</i> (<strong>SEP</strong>) que ofrece el servicio educativo del nivel medio superior tecnológico, en agosto de ese mismo año se publican las funciones que tendrá esta institución y se integran a ella los centros de capacitación para el trabajo industrial, escuelas tecnológicas industriales, los centros de estudios tecnológicos en el Distrito federal y los centros de estudios tecnológicos foráneos.
+
+  Formar y Desarrollar Integralmente a los Educandos del Sistema de Educación Tecnológica Industrial, en donde se manifieste el <strong>Avance</strong> y <strong>Desarrollo Tecnológico</strong>, <strong>la Experiencia del Personal Docente</strong>, <strong>Técnico</strong>, <strong>Administrativo y Directivo</strong>, reforzando los valores que los motiven a la calidad, creatividad y la mejora continua en los procesos institucionales para la satisfacción de nuestros clientes.
+
 </p>
 
 <br>
+
 <div id="centrar">
 
 <img src="imagenes/cartel.jpg" alt="cbtis3">
   
 </div>
-  <br>
   
-    <p id="TextoB">
-  Actualmente en su 50 aniversario la <strong>DGETI</strong> es la institución de educacion media superior mas grande del pais, con una infraestructura fisica de 456 planteles educativos a nivel nacional de los cuales 168 son <strong>CETis</strong> y 288 <strong>CBTis</strong>. De este sistema educativo (<strong>DGETI</strong>), nace el <i>1 de septiembre de 1979</i>, el <i>Centro De Bachillerato Tecnologico Industrial y de servicios No.128</i>, iniciando actividades con el nombre de <i>CECYT 432</i> en las instalaciones de la <i>Secundaria Tecnica #15</i> ubicada en la <i>calle Cerro de la plata y calle Q</i> teniendo como principal objetivo formar técnicos profesionales capaces de integrarse a laborar en la industria maquiladora
-    <br>
-      <br>
-  </p>
+  <br>
 
 </div>
 
 <br>
   <br>
   
+<script>
+
+   function AbrBtn() {
+        var x = document.getElementById("Contacto");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+  
+</script>
+  
+  <footer style="background-color:rgba(162, 34, 69, 1);color:white;">
+
+    <a style="float:right;text-decoration:none;color:black;padding:30px;vertical-alignment:middle;" target="_blank" href="http://www.cbtis128.edu.mx/index.html"><p style="font-family:roboto black;font-size:20px;">Fuentes</p></a>
+
+<p id="Centrarbtn">
+    <button onclick="AbrBtn()" id="Boton1"> <strong>Información de contacto</strong></button>
+
+    <div id="Contacto" style="display: none;" 
+  
+    </br>
+
+<div>
+
+<p id="inf">Telefonos</p>
+<p id="Texto">619-1934 y 619-1570</p>
+  
+</div>
+
+      <div>
+
+<p id="inf">Correo</p>
+<p id="Texto">direccion@cbtis128.edu.mx</p>
+        
+      </div>
+
+      <div>
+
+<p id="inf">Dirección</p>  
+<p id="Texto">Calle Nueva Zelanda No. 7870, Col. Oasis.</p>
+
+  <div id="centrarmapa"'>
+    
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3396.2383732910707!2d-106.41579258452217!3d31.65469754766335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e75d8d875e2b9f%3A0xd9ce9ee31ec09789!2sCBTIS%20128!5e0!3m2!1ses!2smx!4v1651463519724!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<br>
+<br>
+  
+    
+  </div>
+
+        
+      </div>
+      
+    </div>
+  </p>
+    
+</footer>
+
   
 </body>
   
