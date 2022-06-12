@@ -1,0 +1,684 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/*
+
+*****************GENERAL*******************
+
+*/
+
+/*
+
+-webkit-box-shadow: 5px 5px 15px 50px rgba(0,0,0,0.05); 
+box-shadow: 5px 5px 15px 50px rgba(0,0,0,0.05);
+
+Naranja: rgb(255, 96, 0);
+
+
+
+*/
+
+:root{
+
+--fondo: white;
+--Naranja: rgb(255, 96, 0);
+--Naranja-hover: rgb(221, 103, 29);
+  }
+
+
+
+.row1{
+
+display:flex;
+flex-direction:row;
+justify-content:space-evenly;
+
+  
+}
+
+.row2{
+
+display:flex;
+flex-direction:row;
+justify-content:center;
+  
+}
+
+.row3{
+
+display:flex;
+flex-direction:row;
+justify-content:space-evenly;
+  
+}
+
+.row4{
+
+display:flex;
+flex-direction:row;
+justify-content:center;
+border-top:solid 2px var(--Naranja);
+border-bottom:solid 2px var(--Naranja);
+
+  
+}
+
+[class*="col-"]{
+
+float:left;
+padding:15px;
+}
+
+*{
+
+box-sizing:border-box;
+  
+}
+
+html,body {
+    margin:0;
+    padding:0;
+}
+
+/*
+
+
+
+*/
+
+/*
+
+*************HEADER*****************
+
+*/
+
+
+
+.DivHeader{
+
+  display:flex;
+  flex-direction:row;
+  padding-left:30px;
+padding-top:25px;
+padding-bottom:25px;
+  padding-right:30px;
+}
+
+
+.LogoLink{
+
+
+  
+}
+
+.Logo{
+  
+width:30%;
+}
+
+
+.UbicacionHeader{
+
+color:var(--Naranja);
+text-decoration:none;
+font-family:"Roboto condensed";
+}
+
+.UbicacionTxtDiv{
+
+align-self:end;
+  
+}
+
+/*
+
+*********************CONTENIDO**********************
+
+*/
+
+/*MENU*/
+
+.Menu{
+
+background:var(--Naranja);
+padding:50px;
+height:50%;
+display:flex;
+align-items:center;
+padding: 10px;
+display: flex;
+justify-content: center;
+  
+}
+
+.MenuTxt{
+
+color:black;
+font-family:"Roboto condensed";
+text-align:center;
+margin:0px;
+font-size:50px;
+  
+}
+
+.Menu1{
+
+width:60%;
+display:block;
+margin:0 auto;
+  
+}
+
+.Menu2{
+
+width:53%;
+display:block;
+margin:0 auto;
+  
+}
+
+.Menu1B{
+
+background:var(--Naranja);
+display:inherit;
+padding:0px;
+  
+}
+
+.Menu2B{
+
+background:var(--Naranja);
+display:inherit;
+padding:0px;
+  
+}
+
+.Menu1Txt, .Menu2Txt{
+
+color:black;
+font-family:"Roboto condensed";
+text-align:center;
+  
+  
+}
+
+.Menu1L, .Menu2L{
+
+text-decoration:none;
+color:inherit;
+  
+}
+/*Espacio*/
+
+.Espacio{
+
+background: white;
+widht: 100%;
+display:inline-block;
+height:15%;
+  
+}
+
+
+/*BIENVENIDA*/
+
+.Entrada{
+
+background:var(--Naranja);
+padding:50px;
+display: flex;
+align-items: baseline;
+flex-wrap: wrap;
+align-content: center;
+justify-content: center;
+  
+}
+
+.EntradaImg1{
+
+width:50%;
+display:block;
+margin:0 auto;
+  
+}
+
+.Bienvenida{
+
+color:black;
+font-family:"Dancing Script";
+text-align:center;
+margin:0;
+  
+}
+
+.Advertencia{
+
+color:black;
+font-family:"Roboto condensed";
+text-align:center;
+font-size:15px;
+  
+}
+.segundo{
+
+padding:0px;
+  
+}
+
+.SegundoCuadro1{
+
+background:var(--Naranja);
+padding:50px;
+height:50%;
+display:flex;
+align-items:center;
+}
+
+.EntradaImg2{
+
+width:35%;
+float:left;
+padding-right:10px;
+}
+
+.Txt1{
+
+color:black;
+font-family:"Roboto condensed";
+text-align:center;
+margin:0px;
+  
+}
+
+.Txt1span{
+
+color:white;
+  
+}
+
+.EntradaImg3{
+
+width:35%;
+float:left;
+padding-right:10px;
+
+
+  
+}
+
+.Txt2{
+
+color:black;
+font-family:"Roboto condensed";
+text-align:center;
+margin:0px;
+  
+}
+
+.Txt2span{
+
+color:white;
+  
+}
+
+.SegundoCuadro2{
+
+background:var(--Naranja);
+padding:50px;
+height:50%;
+display:flex;
+align-items:center;
+}
+
+.tercero{
+
+padding:0px;
+  
+}
+
+.TercerCuadro1{
+
+background:var(--Naranja);
+padding:50px;
+height:50%;
+display:flex;
+align-items:center;
+  
+}
+
+.EntradaImg4{
+
+width:35%;
+float:left;
+padding-right:10px;
+  
+}
+
+.Txt3{
+
+color:black;
+font-family:"Roboto condensed";
+text-align:center;
+margin:0px;
+  
+}
+
+.Txt3span{
+
+color:white;
+  
+}
+
+.TercerCuadro2{
+
+background:var(--Naranja);
+padding:50px;
+height:50%;
+display:flex;
+align-items:center;
+  
+}
+
+.EntradaImg5{
+
+width:35%;
+float:left;
+padding-right:40px;
+  
+}
+
+.Txt4{
+
+color:black;
+font-family:"Roboto condensed";
+text-align:center;
+margin:0px;
+  
+}
+
+.Txt4span{
+
+color:white;
+  
+}
+
+.Txt1, .Txt1span, .Txt2, Txt2span, .Txt3, Txt3span, .Txt4, Txt4span {
+
+font-size:20px;
+  
+}
+
+/*PROMOCION EXTRA EXTRA*/
+
+.Promocion{
+
+background:var(--Naranja);
+display:flex;
+flex-direction: row;
+justify-content: center;
+padding:0px;
+align-items:center;
+
+  
+}
+
+.PromocionImg1{
+
+width:90%;
+  
+}
+
+.TxtPromocion1{
+
+color:black;
+font-family:"Roboto condensed";
+text-align:center;
+margin:0px;
+font-size:12.25rem;
+  
+}
+
+.TxtPromocion2{
+
+color:white;
+font-family:"Roboto condensed";
+text-align:center;
+margin:0px;
+font-size:80px;
+  
+}
+
+.TxtPromocion3{
+
+color:black;
+font-family:"Dancing Script";
+text-align:center;
+margin:0px;
+font-size:50px;
+font-weight:900;
+
+  
+}
+
+/*PROMOCION DINOSAURIOS*/
+
+.Dinosaurios{
+
+background:var(--Naranja);
+display:flex;
+flex-direction: row;
+justify-content: center;
+padding:0px;
+align-items:center;
+  
+}
+
+.ImgDinosaurios{
+
+display:block;
+  
+}
+
+.ImgDinosaurios2{
+
+display:none;
+  
+}
+
+
+/*PIZZA PIZZA*/
+
+.Dibujo{
+
+background:var(--Naranja);
+display:flex;
+flex-direction: row;
+justify-content: center;
+padding:0px;
+align-items:center;
+  
+}
+
+.Texto{
+
+background:var(--Naranja);
+display:flex;
+flex-direction: row;
+justify-content: center;
+padding:0px;
+align-items:center;
+  
+}
+
+.DibujoImg{
+
+width:50%;
+  
+}
+
+.Txtspan5{
+
+color:black;
+font-family:"Roboto condensed";
+text-align:center;
+margin:0px;
+font-size:50px;
+  
+}
+
+.Txt5{
+
+color:white;
+font-family:"Roboto condensed";
+text-align:center;
+margin:0px;
+font-size:50px;
+  
+}
+
+
+/*
+
+**********************FOOTER*******************
+
+*/
+
+.Redes{
+
+text-decoration:none;
+  
+}
+
+.L1, .L2, .L3, .L4 {
+
+width:5%;
+  
+}
+
+
+
+.Playstore{
+
+display: flex;
+flex-direction:row-reverse;
+  
+}
+
+/*
+
+************RESPONSIVO PC***************
+
+*/
+
+@media only screen and (min-width: 1440px){
+
+  .col-1{width:25%;}
+  .col-2{width:50%;}
+  .col-3{width:75%;}
+  .col-4{width:100%;}
+  .col-5{width:33%}
+
+  
+.row1{
+
+display:flex;
+flex-direction:row;
+justify-content:space-evenly;
+
+  
+}
+  
+}
+
+@media only screen and (min-width: 768px){
+
+  .col-pc1{width:25%;}
+  .col-pc2{width:50%;}
+  .col-pc3{width:75%;}
+  .col-pc4{width:100%;}
+  .col-pc5{width:33%}
+.row1{
+
+display:flex;
+flex-direction:row;
+justify-content:center;
+
+  
+}
+
+  
+  
+}
+
+/*
+
+***************RESPONSIVO TABLET**************
+
+*/
+
+@media only screen and (max-width: 768px){
+
+  .col-t1{width:25%;}
+  .col-t2{width:50%;}
+  .col-t3{width:75%;}
+  .col-t4{width:100%;}
+
+
+.row2{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+  
+}
+
+  .EntradaImg1{
+
+margin:2%;
+    
+  }
+  
+.Txt1, .Txt1span, .Txt2, Txt2span, .Txt3, Txt3span, .Txt4, Txt4span {
+
+font-size:30px;
+  
+}
+
+.ImgDinosaurios{
+
+display:none;
+  
+}
+
+.ImgDinosaurios2{
+
+display:block;
+  
+}
+
+.L1, .L2, .L3, .L4 {
+
+width:20%;
+  
+}
+  
+}
+
+/*
+
+***************RESPONSIVO MOVIL****************
+
+*/
+
+@media only screen and (max-width: 480px){
+
+
+[class*="col-"]{
+
+width:100%
+
+}
+
+
+  
+}
